@@ -1,0 +1,8 @@
+
+C:\Users\user\Desktop\Plaee-Automation-main>// ➖ Remove this line 
+
+C:\Users\user\Desktop\Plaee-Automation-main>// import { test, expect } from '@playwright/test'; 
+
+C:\Users\user\Desktop\Plaee-Automation-main>// ➕ Add this line 
+
+C:\Users\user\Desktop\Plaee-Automation-main>import { test, expect } from "@chromatic-com/playwright"; 
