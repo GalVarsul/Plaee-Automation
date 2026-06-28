@@ -1,0 +1,17 @@
+{
+  "name": "plaee-automation",
+  "version": "1.0.0",
+  "description": "Playwright test automation suite for cms.plaee.cloud",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report",
+    "discover": "node discover.js"
+  },
+  "devDependencies": {
+    "@chromatic-com/playwright": "^0.14.10",
+    "@playwright/test": "^1.44.0",
+    "chromatic": "^17.5.0"
+  }
+}
